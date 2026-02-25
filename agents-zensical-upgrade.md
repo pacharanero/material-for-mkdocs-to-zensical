@@ -1,4 +1,8 @@
-This is a concise checklist for upgrading a Material for MkDocs site to Zensical, based on the changes applied in the Playbook repo. It is intended as a repeatable guide for LLM-driven upgrades.
+This is a concise checklist for upgrading a Material for MkDocs site to Zensical.
+
+It is intended as a repeatable guide for LLM-driven upgrades.
+
+Feedback and improvements to this checklist are welcome. Please submit a PR if you have suggestions.
 
 ## Core Changes
 
