@@ -11,8 +11,13 @@ Feedback and improvements to this checklist are welcome. Please submit a PR if y
 3. Update `mkdocs.yml` to Zensical-compatible settings. Keep the file structure because Zensical is drop-in. If you use Material emoji extensions, switch the module paths to:
    `emoji_index: !!python/name:zensical.extensions.emoji.twemoji`
    `emoji_generator: !!python/name:zensical.extensions.emoji.to_svg`
-   If you want Material-like styling, set `theme: name: material` and `theme: variant: classic`.
-4. Update documentation references to say Zensical instead of MkDocs/Material, and update any `mkdocs` CLI instructions. Update `spec.md` or architecture docs to reflect Zensical use.
+4. Remove `theme: material` from `mkdocs.yml`.
+5. The default theme variant is `modern`. If you want Material-like styling, set
+   ```yml
+   theme:
+     variant: classic
+   ```
+6. Update documentation references to say Zensical instead of MkDocs/Material, and update any `mkdocs` CLI instructions. Update `spec.md` or architecture docs to reflect Zensical use.
 
 ## Validation
 
@@ -54,5 +59,5 @@ zensical serve
 
 ## General tidying
 
-* Check that the Copyright notice in `mkdocs.yml` is up to date and includes the current year and correct organization name.
-* Check that the version of Python in the `Dockerfile` is still appropriate and update if necessary.
+- Check that the Copyright notice in `mkdocs.yml` is up to date and includes the current year and correct organization name.
+- Check that the version of Python in the `Dockerfile` is still appropriate and update if necessary.
