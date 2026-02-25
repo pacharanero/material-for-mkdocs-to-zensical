@@ -50,3 +50,9 @@ zensical serve
 6. `spec.md` (architecture/tooling references)
 7. `Dockerfile` (comments or tooling references to MkDocs/Material)
 8. `s/*` (dev helper scripts that mention MkDocs)
+9. `README.md` (user-facing setup and CLI instructions)
+
+## General tidying
+
+* Check that the Copyright notice in `mkdocs.yml` is up to date and includes the current year and correct organization name.
+* Check that the version of Python in the `Dockerfile` is still appropriate and update if necessary.
