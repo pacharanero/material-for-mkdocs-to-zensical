@@ -48,3 +48,5 @@ zensical serve
 4. `.github/workflows` may need review
 5. `docs/*` - meta-references to the docs setup within the docs itself may need review/update
 6. `spec.md` (architecture/tooling references)
+7. `Dockerfile` (comments or tooling references to MkDocs/Material)
+8. `s/*` (dev helper scripts that mention MkDocs)
